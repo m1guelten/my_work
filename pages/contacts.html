@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lobster&family=Yanone+Kaffeesatz:wght@300;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>КОНТАКТИ</title>
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <div class="container">
+
+    <h1>КОНТАКТИ</h1>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li>
+          <a class="navbar-link" href="../index.html">ГОЛОВНА</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="articles.html">Статті</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="page-nav.html">Навігація</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="gallery.html">Галерея</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="registration.html">Реєстрація</a>
+        </li>
+        <li>
+          <a class="navbar-link" href="catalog.html">Каталог</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <div class="address">
+      <div>
+        <p><b>Адреса:</b> м.Київ,вулиця Васильківська, 67а</p>
+      </div>
+      <div>
+        <div>
+          <b>Як добратись?</b>
+        </div>
+        <div>
+          <img src="../img/map.jpg" alt="book" width="200">
+        </div>
+      </div>
+    </div>
+
+    <form class="form" action="https://tests.fomenko.top/echo/index.php" method="get">
+      <fieldset>
+        <legend>Форма зворотнього зв'язку</legend>
+        <div class="form-group">
+          <label class="form-label" for="firstname">Ім'я</label>
+          <input type="text" name="firstname" id="firstname" class="first-letter" placeholder="Введіть ім'я" size="38"
+            required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="phone">Номер телефону</label>
+          <input type="text" name="phone" id="phone" placeholder="Введіть номер телефону" size="25" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="youremail">Пошта</label>
+          <input type="email" name="youremail" id="youremail" placeholder="Введіть email" size="35" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="question">Задайте запитання:</label>
+          <textarea name="question" id="question" placeholder="Напишіть запитання..." required></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <button class="btn" type="submit">Натисніть для відправки</button>
+        </div>
+        <div>
+          <button class="btn" type="reset">Натисніть для очищення форми</button>
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>
+      <p>&copy; Потапенко Михайло</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>

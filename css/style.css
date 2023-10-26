@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+li {
+  font-family: "Caveat", cursive;
+}
+fieldset {
+  max-width: 500px;
+  margin: 20px auto;
+}
+textarea,
+input {
+  width: 100%;
+  padding: 10px 10px;
+}
+textarea {
+  resize: vertical;
+  min-height: 50px;
+  max-height: 50vh;
+}
+footer {
+  text-align: center;
+}
+.file {
+  padding-left: 0;
+}
+.choise {
+  width: auto;
+}
+.bg {
+  background-color: lightblue;
+  background-image: url(../img/gerb.png), url(../img/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: 98% 2%, 50% 50%;
+  background-size: 150px, cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+.bg-pattern {
+  background-color: lightblue;
+  background-image: url(../img/gerb.png), url(../img/pattern.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position: 98% 2%, 50% 50%;
+  background-size: 150px, auto;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+.header-link {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-decoration: none;
+  margin-left: 0.5em;
+  color: crimson;
+  border-bottom: 1px solid crimson;
+}
+.header-link:hover {
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+}
+.small-link {
+  color: blue;
+}
+.small-link:hover {
+  color: black;
+  text-decoration: none;
+}
+.new-border:hover {
+  border-style: dashed;
+  border-color: black;
+}
+.border-gallery {
+  border: 5px;
+  border-color: black;
+  border-style: double;
+}
+.border-gallery:hover {
+  border: none;
+  padding: 5px;
+}
+.tocomments {
+  color: grey;
+  margin-left: 0.5em;
+}
+.tocomments:hover {
+  color: brown;
+}
+
+.address {
+  max-width: 500px;
+  margin: 20px auto;
+}
+.first-letter {
+  text-transform: capitalize;
+}
+.form-label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+.form-label-inline {
+  margin-bottom: 0.5em;
+}
+.form-group {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px auto;
+}
+.content p::first-letter {
+  font-size: 2em;
+  float: left;
+  font-family: "Lobster", cursive;
+  color: brown;
+}
+.catalog {
+  max-width: 500px;
+  margin: 20px auto;
+}
+.catalog-list {
+  list-style: none;
+  background-color: #d5e7fb;
+  font-size: 3em;
+}
+.catalog-list::before {
+  content: "\2666";
+}
+.catalog-item {
+  list-style: none;
+  background-color: #e8f0fc;
+  font-size: 0.5em;
+}
+.catalog-item li::before {
+  content: "\27A3";
+}
+.new::after {
+  margin-left: 15px;
+  padding: 0 5px;
+  content: "new";
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: whitesmoke;
+  background-color: brown;
+}
+.smalltext {
+  padding: 0.5em;
+  background-color: chartreuse;
+}
+.gallery {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+.gallery-text {
+  font-size: 1.5em;
+}
+.container {
+  max-width: 1280px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.navbar {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.navbar-link {
+  background-color: aqua;
+  min-width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em 1em;
+  display: block;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.5s;
+  border-radius: 0.5em;
+}
+.navbar-link:hover {
+  background-color: turquoise;
+  transform: scale(1.1) translateY(-10px);
+}
